@@ -1,0 +1,28 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #212121;
+}
+ul {
+  list-style: none;
+}
+/* шапка */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #212121;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.web {
+  color: #2196f3;
+}
+
+a.sati-bar {
+  size: 14px;
+}
+.sate-studio {
+  text-decoration: none;
+}
