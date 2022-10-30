@@ -4,11 +4,13 @@ body {
   font-style: normal;
   color: #212121;
 }
+
 ul {
   list-style: none;
 }
-/* шапка */
 
+/* шапка */
+/* лого */
 .logo {
   font-family: "Raleway", sans-serif;
   color: #212121;
@@ -20,9 +22,30 @@ ul {
   color: #2196f3;
 }
 
-a.sati-bar {
+/* сайти */
+.sati-bar {
   size: 14px;
+  color: #212121;
 }
-.sate-studio {
+
+.sate {
   text-decoration: none;
+  color: black;
+}
+
+.sate-bar .sate:hover,
+.sate-bar .sate:focus {
+  color: #2196f3;
+}
+
+/* контакты */
+.contact {
+  size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
 }
