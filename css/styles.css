@@ -1,7 +1,6 @@
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   color: #212121;
 }
 
@@ -14,23 +13,33 @@ ul {
 .logo {
   font-family: "Raleway", sans-serif;
   color: #212121;
+  font-weight: 700;
   font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
 .web {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 /* сайти */
 .sati-bar {
-  size: 14px;
-  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
 }
 
 .sate {
   text-decoration: none;
-  color: black;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .sate-bar .sate:hover,
@@ -40,12 +49,172 @@ ul {
 
 /* контакты */
 .contact {
-  size: 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  color: black;
+  color: rgba(117, 117, 117, 1);
 }
 
 .contact:hover,
 .contact:focus {
   color: #2196f3;
+}
+
+/* основа */
+.hero {
+  background: #2F303A;
+  color: #FFFFFF
+}
+
+.button {
+  background: #2196F3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* Чим ми займаємося */
+.work-lits {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+
+}
+
+.Benefits {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121
+}
+
+/* Чим ми займаємося */
+.doing-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* команда */
+.team {
+  background: #F5F4FA;
+}
+
+.team-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.tean-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* подвал */
+.bottom {
+  font-family: 'Roboto';
+  font-style: normal;
+  background: #2F303A;
+}
+
+.map {
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.map:hover,
+.map:focus {
+  color: #2196f3;
+  ;
+}
+
+.contact-bottom {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-bottom:hover,
+.contact-bottom:focus {
+  color: #2196f3;
+  color: #2196f3;
+}
+
+/* ПОРТФОЛИО */
+/* кнопки */
+.button-portfolio {
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #F5F4FA;
+  cursor: pointer;
+
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+/* Список */
+
+.portfolio-projects {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.specification-projects {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
