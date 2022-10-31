@@ -1,11 +1,18 @@
+:root {
+  --text-color: #757575;
+  --logo-color: #2196f3;
+  --fon-color: #ffffff;
+  --titel-color: #212121;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--text-color);
+  background-color: var(--fon-color);
 }
 
 ul {
@@ -16,7 +23,7 @@ ul {
 /* лого */
 .logo {
   font-family: "Raleway", sans-serif;
-  color: #212121;
+  color: var(--titel-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -27,7 +34,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 /* сайти */
@@ -37,26 +44,26 @@ ul {
   line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--titel-color);
 }
 
 .sate:hover,
 .sate:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 /* контакты */
 .contact {
-  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 .contact:hover,
 .contact:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 /* основа */
@@ -66,19 +73,20 @@ ul {
 
 .button {
   font-family: inherit;
-  background: #2196f3;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--fon-color);
+  background: var(--logo-color);
 }
 .button:hover,
 .button:focus {
-  background: #ffffff;
-  color: #2196f3;
+  background: var(--fon-color);
+  color: var(--logo-color);
 }
 .hero-text {
   font-weight: 900;
@@ -86,22 +94,22 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--fon-color);
 }
 
 /* Чим ми займаємося */
 .work-lits {
   line-height: 1.71;
 }
-.work-titel {
+/* .work-titel {
   display: none;
-}
+} */
 
 .Benefits {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--titel-color);
 }
 
 /* Чим ми займаємося */
@@ -109,26 +117,26 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  color: #212121;
+  color: var(--titel-color);
 }
 
 /* команда */
 .team {
-  background: #f5f4fa;
+  background: var(--fon-color);
 }
 
 .team-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  color: #212121;
+  color: var(--titel-color);
 }
 
 .tean-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--titel-color);
 }
 
 .profession {
@@ -138,30 +146,25 @@ ul {
 
 /* подвал */
 .bottom {
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--fon-color);
   background: #2f303a;
 }
 
 .map {
-  font-style: normal;
   text-decoration: none;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--fon-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
 }
 
 .map:hover,
 .map:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 .contact-bottom {
-  font-size: 14px;
-  cursor: pointer;
   line-height: 1.71;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
@@ -172,7 +175,7 @@ ul {
 
 .contact-bottom:hover,
 .contact-bottom:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 /* ПОРТФОЛИО */
@@ -182,15 +185,15 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  color: #212121;
+  color: var(--titel-color);
   background: #f5f4fa;
   cursor: pointer;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--logo-color);
+  color: var(--fon-color);
 }
 
 /* Список */
@@ -199,7 +202,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--titel-color);
 }
 
 .specification-projects {
@@ -209,9 +212,36 @@ ul {
 /* лого подвал */
 .logo-bottom {
   font-family: "Raleway", sans-serif;
-  color: #ffffff;
+  color: var(--fon-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+/* .foto {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+} */
+.team-card {
+  background: var(--fon-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.projects {
+  background: var(--fon-color);
+  border: 1px solid #eeeeee;
 }
