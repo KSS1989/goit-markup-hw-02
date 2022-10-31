@@ -1,7 +1,11 @@
 body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
   background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  color: #212121;
 }
 
 ul {
@@ -15,45 +19,38 @@ ul {
   color: #212121;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19x;
   text-decoration: none;
 }
 
 .web {
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19x;
   color: #2196f3;
 }
 
 /* сайти */
-.sati-bar {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-}
 
 .sate {
+  font-weight: 500;
+  line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.02em;
   color: #212121;
 }
 
-.sate-bar .sate:hover,
-.sate-bar .sate:focus {
+.sate:hover,
+.sate:focus {
   color: #2196f3;
 }
 
 /* контакты */
 .contact {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  color: rgba(117, 117, 117, 1);
+  color: #757575;
 }
 
 .contact:hover,
@@ -68,20 +65,25 @@ ul {
 }
 
 .button {
+  font-family: inherit;
   background: #2196f3;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
 }
-
+.button:hover,
+.button:focus {
+  background: #ffffff;
+  color: #2196f3;
+}
 .hero-text {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36x;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -89,17 +91,15 @@ ul {
 
 /* Чим ми займаємося */
 .work-lits {
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
+  line-height: 1.71;
+}
+.work-titel {
+  display: none;
 }
 
 .Benefits {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
   color: #212121;
 }
@@ -108,8 +108,7 @@ ul {
 .doing-titel {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
   color: #212121;
 }
 
@@ -121,42 +120,40 @@ ul {
 .team-titel {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
-
+  line-height: 1.17;
   color: #212121;
 }
 
 .tean-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   color: #212121;
 }
 
 .profession {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  color: #757575;
+  line-height: 1.19x;
 }
 
 /* подвал */
 .bottom {
-  font-family: "Roboto";
-  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
   background: #2f303a;
 }
 
 .map {
-  font-size: 14px;
+  font-family: inherit;
+  font-style: normal;
   text-decoration: none;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 .map:hover,
@@ -165,28 +162,30 @@ ul {
 }
 
 .contact-bottom {
+  font-family: inherit;
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  cursor: pointer;
+  line-height: 1.71;
   text-decoration: none;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.address {
+  font-style: normal;
 }
 
 .contact-bottom:hover,
 .contact-bottom:focus {
-  color: #2196f3;
   color: #2196f3;
 }
 
 /* ПОРТФОЛИО */
 /* кнопки */
 .button-portfolio {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.62;
   color: #212121;
   background: #f5f4fa;
   cursor: pointer;
@@ -202,14 +201,21 @@ ul {
 
 .portfolio-projects {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 
 .specification-projects {
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #757575;
+  line-height: 1.88;
+}
+
+.logo-bottom {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
