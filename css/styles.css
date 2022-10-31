@@ -33,7 +33,6 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-
 }
 
 .sate {
@@ -64,19 +63,19 @@ ul {
 
 /* основа */
 .hero {
-  background: #2F303A;
-  color: #FFFFFF
+  background: #2f303a;
+  color: #ffffff;
 }
 
 .button {
-  background: #2196F3;
+  background: #2196f3;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero-text {
@@ -85,7 +84,7 @@ ul {
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Чим ми займаємося */
@@ -94,7 +93,6 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-
 }
 
 .Benefits {
@@ -103,7 +101,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121
+  color: #212121;
 }
 
 /* Чим ми займаємося */
@@ -117,7 +115,7 @@ ul {
 
 /* команда */
 .team {
-  background: #F5F4FA;
+  background: #f5f4fa;
 }
 
 .team-titel {
@@ -147,9 +145,9 @@ ul {
 
 /* подвал */
 .bottom {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
-  background: #2F303A;
+  background: #2f303a;
 }
 
 .map {
@@ -157,14 +155,13 @@ ul {
   text-decoration: none;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .map:hover,
 .map:focus {
   color: #2196f3;
-  ;
 }
 
 .contact-bottom {
@@ -185,22 +182,20 @@ ul {
 /* ПОРТФОЛИО */
 /* кнопки */
 .button-portfolio {
-
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  background: #F5F4FA;
+  background: #f5f4fa;
   cursor: pointer;
-
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: #2196F3;
-  color: #FFFFFF;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 /* Список */
